@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ac155a93-95b8-4337-9116-533619bb47fd": {
+      "ProjectGuid": "ac155a93-95b8-4337-9116-533619bb47fd",
+      "DisplayName": "ControleDeEstacionamento",
+      "ColorIndex": 0
+    },
+    "14c21238-ba74-418e-984c-fc3fbe5806b4": {
+      "ProjectGuid": "14c21238-ba74-418e-984c-fc3fbe5806b4",
+      "DisplayName": "Solution Items",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

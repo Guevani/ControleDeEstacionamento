@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleDeEstacionamento", "ControleDeEstacionamento\ControleDeEstacionamento.csproj", "{AC155A93-95B8-4337-9116-533619BB47FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC155A93-95B8-4337-9116-533619BB47FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC155A93-95B8-4337-9116-533619BB47FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC155A93-95B8-4337-9116-533619BB47FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC155A93-95B8-4337-9116-533619BB47FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {973F1B1D-B6DB-46B5-A922-FF8D8ACA8257}
+	EndGlobalSection
+EndGlobal
