@@ -153,14 +153,30 @@ namespace ControleDeEstacionamento.Formulários
 
         }
 
+        private void dgvDADOS_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
 
-        
+            // Descobrir o número da Linha da célula clicada:
+            int numeroLinha = dgvDADOS.CurrentCell.RowIndex;
+
+            // Guardar toda a linha em um objeto DataRow:
+            var linha = dgvDADOS.Rows[numeroLinha];
+
+            // Variaveis que vão receber os valores da linha selecionada:
+
+            var Vaga = int.Parse(linha.Cells[1].Value.ToString());
+                var id = int.Parse(linha.Cells[5].Value.ToString());
 
 
+
+            // Atribuir o valores das células aos txb do editar:
+            tbPlacaSaida.Text=Convert.ToString(Vaga);
+            cbSaida.Text = Convert.ToString(id);
+        }
 
         private void lblvalor_Click(object sender, EventArgs e)
             {
-
+                    
             }
        }
    }
