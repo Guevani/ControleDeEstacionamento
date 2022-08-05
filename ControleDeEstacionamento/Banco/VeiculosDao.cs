@@ -13,9 +13,9 @@ namespace ControleDeEstacionamento.Banco
         public static bool Cadastrar(Veiculos v)
         {
             string comando;
-            comando = "INSERT INTO `veiculos`( `Placa`, `Modelo`" +
-                ") " +
-               " VALUES(@Placa,@Modelo )";
+            comando = "INSERT INTO `veiculos`( `Placa`, Modelo, ID_Vaga )"
+                +
+               " VALUES(@Placa,@Modelo,@Id_vaga )";
 
 
 
@@ -29,6 +29,7 @@ namespace ControleDeEstacionamento.Banco
 
             cmd.Parameters.AddWithValue("@Placa", v.Placa);
             cmd.Parameters.AddWithValue("@Modelo", v.Modelo);
+            cmd.Parameters.AddWithValue("@Id_vaga", v.Id_VAGA);
 
 
             cmd.Prepare();

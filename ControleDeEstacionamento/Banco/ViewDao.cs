@@ -8,5 +8,4 @@ namespace ControleDeEstacionamento.Banco
 {
     internal class ViewDao
     {
-    }
-}
+    }}

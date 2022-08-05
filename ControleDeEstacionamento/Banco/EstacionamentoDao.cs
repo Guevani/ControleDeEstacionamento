@@ -64,6 +64,22 @@ namespace ControleDeEstacionamento.Banco
             conexaoBD.Desconectar(con);
             return tabela;
         }
+
+        public static DataTable Listar()
+        {
+            DataTable tabela = new DataTable();
+            string comando;
+            comando = "SELECT * FROM `estacionamento`" ;
+            ConexaoBD conexaoBD = new ConexaoBD();
+            MySqlConnection con = conexaoBD.ObterConexao();
+            MySqlCommand cmd = new MySqlCommand(comando, con);
+
+            cmd.Prepare();
+            tabela.Load(cmd.ExecuteReader());
+            conexaoBD.Desconectar(con);
+            return tabela;
+        }
+
     }
 
 }

@@ -28,11 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.grbEntrada = new System.Windows.Forms.GroupBox();
+            this.lblmodelo = new System.Windows.Forms.Label();
+            this.tbModelo = new System.Windows.Forms.TextBox();
             this.lblHora = new System.Windows.Forms.Label();
             this.tbEntrada = new System.Windows.Forms.TextBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
@@ -41,56 +43,53 @@
             this.LblVaga = new System.Windows.Forms.Label();
             this.lblPlaca = new System.Windows.Forms.Label();
             this.gbSaida = new System.Windows.Forms.GroupBox();
+            this.lblPlacaSaida = new System.Windows.Forms.Label();
+            this.tbPlacaSaida = new System.Windows.Forms.TextBox();
+            this.tbSaidaHora = new System.Windows.Forms.TextBox();
+            this.lblSaida = new System.Windows.Forms.Label();
             this.cbSaida = new System.Windows.Forms.ComboBox();
             this.btSaida = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.lblSaida = new System.Windows.Forms.Label();
-            this.tbSaidaHora = new System.Windows.Forms.TextBox();
-            this.tbPlacaSaida = new System.Windows.Forms.TextBox();
-            this.lblPlacaSaida = new System.Windows.Forms.Label();
-            this.lblvalor = new System.Windows.Forms.Label();
-            this.tbModelo = new System.Windows.Forms.TextBox();
-            this.lblmodelo = new System.Windows.Forms.Label();
-            this.dgvListartudo = new System.Windows.Forms.DataGridView();
+            this.dgvDADOS = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.grbEntrada.SuspendLayout();
             this.gbSaida.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvListartudo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDADOS)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
             // 
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle1.NullValue = null;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle4.NullValue = null;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dataGridView1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCellsExceptHeaders;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.Transparent;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
-            this.dataGridView1.Location = new System.Drawing.Point(751, 7);
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.Transparent;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle6;
+            this.dataGridView1.Location = new System.Drawing.Point(12, 12);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(249, 300);
+            this.dataGridView1.Size = new System.Drawing.Size(468, 284);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -105,26 +104,45 @@
             this.grbEntrada.Controls.Add(this.btnCadastrarVaga);
             this.grbEntrada.Controls.Add(this.LblVaga);
             this.grbEntrada.Controls.Add(this.lblPlaca);
-            this.grbEntrada.Location = new System.Drawing.Point(471, 7);
+            this.grbEntrada.Location = new System.Drawing.Point(495, 53);
             this.grbEntrada.Name = "grbEntrada";
-            this.grbEntrada.Size = new System.Drawing.Size(274, 204);
+            this.grbEntrada.Size = new System.Drawing.Size(237, 212);
             this.grbEntrada.TabIndex = 1;
             this.grbEntrada.TabStop = false;
             this.grbEntrada.Text = "Entrada";
             // 
+            // lblmodelo
+            // 
+            this.lblmodelo.AutoSize = true;
+            this.lblmodelo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblmodelo.Location = new System.Drawing.Point(25, 19);
+            this.lblmodelo.Name = "lblmodelo";
+            this.lblmodelo.Size = new System.Drawing.Size(72, 20);
+            this.lblmodelo.TabIndex = 10;
+            this.lblmodelo.Text = "Modelo:";
+            // 
+            // tbModelo
+            // 
+            this.tbModelo.Location = new System.Drawing.Point(103, 19);
+            this.tbModelo.Multiline = true;
+            this.tbModelo.Name = "tbModelo";
+            this.tbModelo.Size = new System.Drawing.Size(100, 20);
+            this.tbModelo.TabIndex = 9;
+            // 
             // lblHora
             // 
             this.lblHora.AutoSize = true;
-            this.lblHora.Location = new System.Drawing.Point(88, 79);
+            this.lblHora.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHora.Location = new System.Drawing.Point(25, 76);
             this.lblHora.Name = "lblHora";
-            this.lblHora.Size = new System.Drawing.Size(47, 13);
+            this.lblHora.Size = new System.Drawing.Size(78, 20);
             this.lblHora.TabIndex = 8;
             this.lblHora.Text = "Entrada:";
             // 
             // tbEntrada
             // 
             this.tbEntrada.Enabled = false;
-            this.tbEntrada.Location = new System.Drawing.Point(154, 76);
+            this.tbEntrada.Location = new System.Drawing.Point(103, 78);
             this.tbEntrada.Multiline = true;
             this.tbEntrada.Name = "tbEntrada";
             this.tbEntrada.Size = new System.Drawing.Size(100, 18);
@@ -144,7 +162,7 @@
             "8",
             "9",
             "10"});
-            this.comboBox1.Location = new System.Drawing.Point(154, 110);
+            this.comboBox1.Location = new System.Drawing.Point(103, 112);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(100, 21);
             this.comboBox1.TabIndex = 6;
@@ -152,7 +170,7 @@
             // 
             // tbPlaca
             // 
-            this.tbPlaca.Location = new System.Drawing.Point(154, 44);
+            this.tbPlaca.Location = new System.Drawing.Point(103, 52);
             this.tbPlaca.Multiline = true;
             this.tbPlaca.Name = "tbPlaca";
             this.tbPlaca.Size = new System.Drawing.Size(100, 18);
@@ -160,7 +178,7 @@
             // 
             // btnCadastrarVaga
             // 
-            this.btnCadastrarVaga.Location = new System.Drawing.Point(91, 156);
+            this.btnCadastrarVaga.Location = new System.Drawing.Point(103, 151);
             this.btnCadastrarVaga.Name = "btnCadastrarVaga";
             this.btnCadastrarVaga.Size = new System.Drawing.Size(111, 42);
             this.btnCadastrarVaga.TabIndex = 3;
@@ -171,18 +189,20 @@
             // LblVaga
             // 
             this.LblVaga.AutoSize = true;
-            this.LblVaga.Location = new System.Drawing.Point(88, 113);
+            this.LblVaga.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblVaga.Location = new System.Drawing.Point(25, 110);
             this.LblVaga.Name = "LblVaga";
-            this.LblVaga.Size = new System.Drawing.Size(40, 13);
+            this.LblVaga.Size = new System.Drawing.Size(65, 20);
             this.LblVaga.TabIndex = 2;
             this.LblVaga.Text = "Vagas:";
             // 
             // lblPlaca
             // 
             this.lblPlaca.AutoSize = true;
-            this.lblPlaca.Location = new System.Drawing.Point(91, 44);
+            this.lblPlaca.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPlaca.Location = new System.Drawing.Point(25, 50);
             this.lblPlaca.Name = "lblPlaca";
-            this.lblPlaca.Size = new System.Drawing.Size(37, 13);
+            this.lblPlaca.Size = new System.Drawing.Size(58, 20);
             this.lblPlaca.TabIndex = 1;
             this.lblPlaca.Text = "Placa:";
             // 
@@ -195,12 +215,48 @@
             this.gbSaida.Controls.Add(this.cbSaida);
             this.gbSaida.Controls.Add(this.btSaida);
             this.gbSaida.Controls.Add(this.label2);
-            this.gbSaida.Location = new System.Drawing.Point(471, 228);
+            this.gbSaida.Location = new System.Drawing.Point(495, 384);
             this.gbSaida.Name = "gbSaida";
-            this.gbSaida.Size = new System.Drawing.Size(274, 247);
+            this.gbSaida.Size = new System.Drawing.Size(214, 199);
             this.gbSaida.TabIndex = 2;
             this.gbSaida.TabStop = false;
             this.gbSaida.Text = "Saida";
+            // 
+            // lblPlacaSaida
+            // 
+            this.lblPlacaSaida.AutoSize = true;
+            this.lblPlacaSaida.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPlacaSaida.Location = new System.Drawing.Point(25, 36);
+            this.lblPlacaSaida.Name = "lblPlacaSaida";
+            this.lblPlacaSaida.Size = new System.Drawing.Size(58, 20);
+            this.lblPlacaSaida.TabIndex = 11;
+            this.lblPlacaSaida.Text = "Placa:";
+            // 
+            // tbPlacaSaida
+            // 
+            this.tbPlacaSaida.Location = new System.Drawing.Point(89, 38);
+            this.tbPlacaSaida.Name = "tbPlacaSaida";
+            this.tbPlacaSaida.Size = new System.Drawing.Size(100, 20);
+            this.tbPlacaSaida.TabIndex = 10;
+            // 
+            // tbSaidaHora
+            // 
+            this.tbSaidaHora.Enabled = false;
+            this.tbSaidaHora.Location = new System.Drawing.Point(89, 102);
+            this.tbSaidaHora.Multiline = true;
+            this.tbSaidaHora.Name = "tbSaidaHora";
+            this.tbSaidaHora.Size = new System.Drawing.Size(100, 18);
+            this.tbSaidaHora.TabIndex = 9;
+            // 
+            // lblSaida
+            // 
+            this.lblSaida.AutoSize = true;
+            this.lblSaida.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSaida.Location = new System.Drawing.Point(25, 100);
+            this.lblSaida.Name = "lblSaida";
+            this.lblSaida.Size = new System.Drawing.Size(60, 20);
+            this.lblSaida.TabIndex = 3;
+            this.lblSaida.Text = "Saida:";
             // 
             // cbSaida
             // 
@@ -216,14 +272,14 @@
             "8",
             "9",
             "10"});
-            this.cbSaida.Location = new System.Drawing.Point(154, 84);
+            this.cbSaida.Location = new System.Drawing.Point(89, 69);
             this.cbSaida.Name = "cbSaida";
             this.cbSaida.Size = new System.Drawing.Size(100, 21);
             this.cbSaida.TabIndex = 6;
             // 
             // btSaida
             // 
-            this.btSaida.Location = new System.Drawing.Point(91, 179);
+            this.btSaida.Location = new System.Drawing.Point(78, 137);
             this.btSaida.Name = "btSaida";
             this.btSaida.Size = new System.Drawing.Size(111, 42);
             this.btSaida.TabIndex = 3;
@@ -234,92 +290,33 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(95, 84);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(25, 67);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(40, 13);
+            this.label2.Size = new System.Drawing.Size(65, 20);
             this.label2.TabIndex = 2;
             this.label2.Text = "Vagas:";
             // 
-            // lblSaida
+            // dgvDADOS
             // 
-            this.lblSaida.AutoSize = true;
-            this.lblSaida.Location = new System.Drawing.Point(95, 126);
-            this.lblSaida.Name = "lblSaida";
-            this.lblSaida.Size = new System.Drawing.Size(37, 13);
-            this.lblSaida.TabIndex = 3;
-            this.lblSaida.Text = "Saida:";
-            // 
-            // tbSaidaHora
-            // 
-            this.tbSaidaHora.Enabled = false;
-            this.tbSaidaHora.Location = new System.Drawing.Point(154, 126);
-            this.tbSaidaHora.Multiline = true;
-            this.tbSaidaHora.Name = "tbSaidaHora";
-            this.tbSaidaHora.Size = new System.Drawing.Size(100, 18);
-            this.tbSaidaHora.TabIndex = 9;
-            // 
-            // tbPlacaSaida
-            // 
-            this.tbPlacaSaida.Location = new System.Drawing.Point(154, 53);
-            this.tbPlacaSaida.Name = "tbPlacaSaida";
-            this.tbPlacaSaida.Size = new System.Drawing.Size(100, 20);
-            this.tbPlacaSaida.TabIndex = 10;
-            // 
-            // lblPlacaSaida
-            // 
-            this.lblPlacaSaida.AutoSize = true;
-            this.lblPlacaSaida.Location = new System.Drawing.Point(98, 56);
-            this.lblPlacaSaida.Name = "lblPlacaSaida";
-            this.lblPlacaSaida.Size = new System.Drawing.Size(34, 13);
-            this.lblPlacaSaida.TabIndex = 11;
-            this.lblPlacaSaida.Text = "carro:";
-            // 
-            // lblvalor
-            // 
-            this.lblvalor.AutoSize = true;
-            this.lblvalor.Location = new System.Drawing.Point(856, 372);
-            this.lblvalor.Name = "lblvalor";
-            this.lblvalor.Size = new System.Drawing.Size(24, 13);
-            this.lblvalor.TabIndex = 3;
-            this.lblvalor.Text = "R$:";
-            this.lblvalor.Click += new System.EventHandler(this.lblvalor_Click);
-            // 
-            // tbModelo
-            // 
-            this.tbModelo.Location = new System.Drawing.Point(154, 19);
-            this.tbModelo.Multiline = true;
-            this.tbModelo.Name = "tbModelo";
-            this.tbModelo.Size = new System.Drawing.Size(100, 18);
-            this.tbModelo.TabIndex = 9;
-            // 
-            // lblmodelo
-            // 
-            this.lblmodelo.AutoSize = true;
-            this.lblmodelo.Location = new System.Drawing.Point(88, 24);
-            this.lblmodelo.Name = "lblmodelo";
-            this.lblmodelo.Size = new System.Drawing.Size(45, 13);
-            this.lblmodelo.TabIndex = 10;
-            this.lblmodelo.Text = "Modelo:";
-            // 
-            // dgvListartudo
-            // 
-            this.dgvListartudo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvListartudo.Location = new System.Drawing.Point(12, 26);
-            this.dgvListartudo.Name = "dgvListartudo";
-            this.dgvListartudo.Size = new System.Drawing.Size(441, 150);
-            this.dgvListartudo.TabIndex = 4;
+            this.dgvDADOS.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvDADOS.Location = new System.Drawing.Point(12, 353);
+            this.dgvDADOS.Name = "dgvDADOS";
+            this.dgvDADOS.Size = new System.Drawing.Size(468, 262);
+            this.dgvDADOS.TabIndex = 5;
             // 
             // Entrada
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1012, 646);
-            this.Controls.Add(this.dgvListartudo);
-            this.Controls.Add(this.lblvalor);
+            this.ClientSize = new System.Drawing.Size(770, 646);
+            this.Controls.Add(this.dgvDADOS);
             this.Controls.Add(this.gbSaida);
             this.Controls.Add(this.grbEntrada);
             this.Controls.Add(this.dataGridView1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Entrada";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Entrada";
             this.Load += new System.EventHandler(this.Entrada_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -327,9 +324,8 @@
             this.grbEntrada.PerformLayout();
             this.gbSaida.ResumeLayout(false);
             this.gbSaida.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvListartudo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDADOS)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -352,9 +348,8 @@
         private System.Windows.Forms.Label lblSaida;
         private System.Windows.Forms.Label lblPlacaSaida;
         private System.Windows.Forms.TextBox tbPlacaSaida;
-        private System.Windows.Forms.Label lblvalor;
         private System.Windows.Forms.Label lblmodelo;
         private System.Windows.Forms.TextBox tbModelo;
-        private System.Windows.Forms.DataGridView dgvListartudo;
+        private System.Windows.Forms.DataGridView dgvDADOS;
     }
 }
